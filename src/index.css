@@ -7,7 +7,125 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background-black {
+  background-color: #030303;
+}
+
+.background-pink {
+  background-color: #F0C3F1;
+}
+
+.background-gray {
+  background-color: #C2C2C2;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.padding_10 {
+  padding: 10px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-5 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.dashboard input[type=radio]:checked {
+  accent-color: #6741D9;
+}
+
+button {
+  background: #6741D9;
+  width: 500px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
 }

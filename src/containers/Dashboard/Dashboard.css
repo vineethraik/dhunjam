@@ -1,0 +1,23 @@
+.dashboard {
+    width: 600px;
+}
+
+.dashboard input[type="number"] {
+    width: 50px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+
+}
+
+.dashboard input::-webkit-outer-spin-button,
+.dashboard input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.dashboard__input__legend {
+    width: 50%;
+    white-space: normal;
+}

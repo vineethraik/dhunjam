@@ -1,0 +1,9 @@
+.login input {
+    width: 500px;
+}
+
+.login .error__message {
+    color: red;
+    font-size: 14px;
+
+}
